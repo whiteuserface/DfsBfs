@@ -64,19 +64,15 @@ class Queue<T> {
 
 public class DfsBfsCreateQueue {
 	public static void main(String[] args) {
-		Queue<Integer> q = new Queue<Integer>();
-		//4개의 Node를 추가한다.
-		q.add(1);
-		q.add(2);
-		q.add(3);
-		q.add(4);
-		//확인
-		System.out.println(q.remove());
-		System.out.println(q.remove());
-		System.out.println(q.peek());
-		System.out.println(q.remove());
-		System.out.println(q.isEmpty());
-		System.out.println(q.remove());
-		System.out.println(q.isEmpty());
+		//Depth-Frist Search (DFS)
+		//inorder
+		//preorder
+		//postorder
+		//stack을 이용해서 구현
+
+		
+		//Breadth-First Search(BFS)
+		//queue을 이용해서 구현
+		
 	}
 }
