@@ -62,7 +62,7 @@ class Queue<T> {
 }
 
 
-public class DfsBfs {
+public class DfsBfsCreateQueue {
 	public static void main(String[] args) {
 		Queue<Integer> q = new Queue<Integer>();
 		//4개의 Node를 추가한다.
